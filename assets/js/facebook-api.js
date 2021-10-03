@@ -7,8 +7,8 @@ window.fbAsyncInit = function () {
   });
 
   FB.AppEvents.logPageView();
-  checkLoginState();
   setElements(false);
+  checkLoginState();
 };
 
 (function (d, s, id) {

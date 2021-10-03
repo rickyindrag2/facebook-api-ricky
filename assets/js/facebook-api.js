@@ -113,13 +113,11 @@ function buildFeed(post) {
 function setElements(isLoggedIn) {
   if (isLoggedIn) {
     document.getElementById("login-index").style.display = "block";
-    document.getElementById("login-index").hidden = false;
     document.getElementById("default-index").style.display = "none";
     document.getElementById("login").style.display = "none";
     document.getElementById("logout").style.display = "block";
   } else {
     document.getElementById("login-index").style.display = "none";
-    document.getElementById("login-index").hidden = true;
     document.getElementById("default-index").style.display = "block";
     document.getElementById("login").style.display = "block";
     document.getElementById("logout").style.display = "none";

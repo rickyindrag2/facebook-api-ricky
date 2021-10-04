@@ -17,21 +17,21 @@
     ></script>
     <script src="assets/js/facebook-api.js"></script>
 
-    <div id="default-index">
-      <header>
-        <nav>
-          <div class="topnav" id="myTopnav">
-            <a href="#" class="active">Home</a>
-            <a href="#segmen_products">Products</a>
-            <a href="#about">About</a>
-            <a
-              href="javascript:void(0);"
-              style="font-size: 15px"
-              class="icon"
-              onclick="myFunction()"
-              >&#9776;</a
-            >
-            <div class="topnav-right">
+    <header>
+      <nav>
+        <div class="topnav" id="myTopnav">
+          <a href="#" class="active">Home</a>
+          <a href="#segmen_products">Products</a>
+          <a href="#about">About</a>
+          <a
+            href="javascript:void(0);"
+            style="font-size: 15px"
+            class="icon"
+            onclick="myFunction()"
+            >&#9776;</a
+          >
+          <div class="topnav-right">
+            <div id="default-index">
               <div
                 id="login"
                 class="fb-login-button"
@@ -47,50 +47,22 @@
                 Log in to Facebook
               </div>
             </div>
-          </div>
-        </nav>
 
-        <div class="jumbotron">
-          <h1>
-            <span
-              style="background-color: rgba(0, 0, 0, 0.7); padding: 0px 15px"
-              >Facebook API</span
-            >
-          </h1>
+            <a id="logout" href="#" onclick="logout()">Logout</a>
+          </div>
         </div>
-      </header>
-    </div>
+      </nav>
+
+      <div class="jumbotron">
+        <h1>
+          <span style="background-color: rgba(0, 0, 0, 0.7); padding: 0px 15px"
+            >Facebook API</span
+          >
+        </h1>
+      </div>
+    </header>
 
     <div id="login-index">
-      <header>
-        <nav>
-          <div class="topnav" id="myTopnav2">
-            <a href="#" class="active">Home</a>
-            <a href="#segmen_products">Products</a>
-            <a href="#about">About</a>
-            <a
-              href="javascript:void(0);"
-              style="font-size: 15px"
-              class="icon"
-              onclick="myFunction2()"
-              >&#9776;</a
-            >
-            <div class="topnav-right">
-              <a id="logout" href="#" onclick="logout()">Logout</a>
-            </div>
-          </div>
-        </nav>
-
-        <div class="jumbotron">
-          <h1>
-            <span
-              style="background-color: rgba(0, 0, 0, 0.7); padding: 0px 15px"
-              >Facebook API</span
-            >
-          </h1>
-        </div>
-      </header>
-
       <div class="heading" id="segment_article">
         <h1>Your Facebook Status</h1>
       </div>
@@ -157,13 +129,13 @@
     <div id="products"></div>
     <div
       class="fb-share-button"
-      data-href="https://rickyindrag.netlify.app"
+      data-href="https://rickyig.netlify.app"
       data-layout="button_count"
       data-size="large"
     >
       <a
         target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frickyindrag.netlify.app%2F&amp;src=sdkpreparse"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frickyig.netlify.app%2F&amp;src=sdkpreparse"
         class="fb-xfbml-parse-ignore"
         >Bagikan</a
       >
